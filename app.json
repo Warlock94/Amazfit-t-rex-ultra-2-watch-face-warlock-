@@ -1,0 +1,47 @@
+{
+  "configVersion": "v3",
+  "app": {
+    "appId": 204800480,
+    "appName": "TACTICAL WARLOCK 480",
+    "appType": "watchface",
+    "version": {
+      "code": 1,
+      "name": "1.0.0"
+    },
+    "icon": "icon.png",
+    "vender": "warlock",
+    "description": "Tactical military digital watchface for Amazfit T-Rex Ultra 2, 480x480.",
+    "cover": ["preview.png"]
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "targets": {
+    "t-rex-ultra-2": {
+      "module": {
+        "watchface": {
+          "path": "watchface/index",
+          "main": 1,
+          "editable": 0,
+          "lockscreen": 0
+        }
+      },
+      "platforms": [
+        { "name": "t-rex-ultra-2", "deviceSource": 10879232, "st": "r", "sr": "w480" },
+        { "name": "t-rex-ultra-2", "deviceSource": 10879233, "st": "r", "sr": "w480" },
+        { "name": "t-rex-ultra-2", "deviceSource": 10879235, "st": "r", "sr": "w480" }
+      ],
+      "designWidth": 480
+    }
+  },
+  "i18n": {
+    "en-US": { "appName": "TACTICAL WARLOCK 480" },
+    "ru-RU": { "appName": "TACTICAL WARLOCK 480" }
+  },
+  "defaultLanguage": "ru-RU"
+}

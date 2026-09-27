@@ -1,0 +1,8 @@
+{
+  "name": "tactical-warlock-480",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "zeus build"
+  }
+}
